@@ -450,6 +450,20 @@ export default function CurriculumManager({ refreshKey = 0 }) {
             {addingCurriculum ? 'Adding...' : 'Add Curriculum'}
           </button>
         </div>
+
+        {/* Download template */}
+        <div className="flex flex-col justify-end">
+          <label className="block text-sm font-medium text-gray-700 mb-1 invisible">
+            Template
+          </label>
+          <a
+            href="/templates/curriculum-template.xlsx"
+            download="Curriculum Upload Template.xlsx"
+            className="px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 text-sm font-medium transition-colors text-center"
+          >
+            Template
+          </a>
+        </div>
       </div>
 
       {message && (
