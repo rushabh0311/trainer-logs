@@ -89,6 +89,7 @@ export default async function handler(req, res) {
             from: FROM_EMAIL,
             to: [trainer.email],
             cc: ['neha.dube@gryphonacademy.co.in'],
+            bcc: ['training.g@gryphonacademy.co.in'],
             subject: 'Trainer Schedule Details',
             html: buildScheduleHtml(
               trainer,
