@@ -17,7 +17,7 @@ const aliases = {
   date: ['date'],
   batch: ['batch'],
   time: ['time'],
-  hours: ['hours', 'hour'],
+  hours: ['hours', 'hour', 'hrs'],
   costPerHour: ['costhrs', 'costperhour'],
   costPerDay: ['costday', 'costperday'],
   foodLodging: ['foodlodgingday', 'foodandlodgingday'],
